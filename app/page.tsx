@@ -8,8 +8,9 @@ import Hero from "./components/hero";
 import Journey from "./components/Journey";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
-import Skills from "./components/skills";
+
 import Contact from "./contact/page";
+import SkillsPage from "./skills/page";
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
 <Hero/>
 <Featured/>
   <About/>
-    <Skills/>
+    <SkillsPage/>
       <Projects/>
       <Journey/> 
       <Contact/>
